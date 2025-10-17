@@ -3,6 +3,9 @@ import Jatekter from './components/Jatekter';
 import Lampak from './components/Lampak';
 
 function App() {
+
+  const [lista, setLista] = useState(["", "", "", "", "", "", "", "", ""])
+
   return (
     <div className="App">
       <header className="App-header">

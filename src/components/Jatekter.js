@@ -8,10 +8,10 @@ export default function Jatekter(props) {
             <h2>Játéktér</h2>
             <div className="jatekter">
                 {
-                    props.lista.map((allapot, index) => {
+                    props.lista.map((adat, index) => {
 
                         return (
-                            <Lampak key={index} allapot={allapot} index={index} katt={props.katt} />
+                            <Lampak adat={adat} key={index} katt={props.katt} index={index} />
                         )
                     }
 
