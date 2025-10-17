@@ -1,6 +1,7 @@
 import './App.css';
 import Jatekter from './components/Jatekter';
 import Lampak from './components/Lampak';
+import { useState } from "react";
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
       </header>
       <article>
 
-        <Jatekter katt={katt} />
+        <Jatekter lista={lista} />
 
       </article>
       <div>
