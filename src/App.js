@@ -1,23 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import Jatekter from './components/Jatekter';
+import Lampak from './components/Lampak';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>LightOn</h1>
       </header>
+      <article>
+
+        <Jatekter katt={katt} />
+
+      </article>
+      <div>
+
+        <Lampak />
+
+      </div>
+      <footer>
+        <p>Fabu András</p>
+      </footer>
     </div>
   );
 }
